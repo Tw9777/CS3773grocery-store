@@ -9,6 +9,7 @@ public class SMView extends JFrame{
     private JTextField tfUserNm = new JTextField(20);
     private JTextField tfPassWd = new JTextField(20);
 
+    // CONSTRUCTER
     SMView(){
 
         JPanel finalPanel = new JPanel();
