@@ -1,9 +1,17 @@
 package main;
 
+import storageManagerModel.SMModel;
+
 public class StorageManagerPortal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		SMModel m = new SMModel();
+
+		if (m.logIn("User", "12345"))
+			System.out.println("Login Successful!!");
+		else
+			System.out.println("Login Failed");
 
 	}
 
