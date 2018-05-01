@@ -3,6 +3,8 @@ package storageManagerController;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.JOptionPane;
+
 import storageManagerModel.SMModel;
 import storageManagerView.SMView;
 
@@ -29,9 +31,10 @@ public class SMController {
 				
 				if (theModel.logIn(userName, password)){
 					System.out.println("Login Successful");
+					JOptionPane.showMessageDialog(null, "Login Successful");
 				}
 				else{
-					System.out.println("Login Failed");
+					JOptionPane.showMessageDialog(null, "Login Failed");
 				}
 				
 			}
