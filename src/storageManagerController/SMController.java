@@ -29,13 +29,9 @@ public class SMController {
 				
 				if (theModel.logIn(userName, password)){
 					System.out.println("Login Successful");
-					//test
-					System.out.println(userName + " " + password);
 				}
 				else{
 					System.out.println("Login Failed");
-					//test
-					System.out.println(userName + " " + password);
 				}
 				
 			}

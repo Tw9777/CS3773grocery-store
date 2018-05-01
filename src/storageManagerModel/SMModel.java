@@ -23,7 +23,7 @@ public class SMModel {
 		
 	public boolean logIn(String userNm, String passWd) {
 		
-		return (userNm == this.userNm) && (passWd == this.passWd);
+		return (userNm.equals(this.userNm)) && (passWd.equals(this.passWd));
 	}
 	
 	//Create new item instance and add it to the Array List

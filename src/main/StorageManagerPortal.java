@@ -12,13 +12,9 @@ public class StorageManagerPortal {
 		SMModel m = new SMModel();
 		SMView v = new SMView();
 		SMController c = new SMController(v,m);
-
-		if (m.logIn("User", "12345")) {
-			System.out.println("Login Successful!!");
-			v.setVisible(true);
-		}
-		else
-			System.out.println("Login Failed");
+		
+		v.setVisible(true);
+		
 
 	}
 
