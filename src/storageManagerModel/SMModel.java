@@ -79,6 +79,17 @@ public class SMModel {
 		}
 	}
 
+	//Update an items Price
+	public void updatePrice(String itemID,double itemPrice)
+	{
+		for(int i =0; i <stock.size(); i++)
+		{
+			if (itemID == stock.get(i).getItemID())
+			{
+				stock.get(i).setItemPrice(itemPrice);
+			}
+		}
+	}
 
 
 
