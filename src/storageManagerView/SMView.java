@@ -49,5 +49,10 @@ public class SMView extends JFrame{
     	
     	bLoginButton.addActionListener(listenForLogin);
     }
+    
+    void displayErrorMessage(String errorMessage) {
+    	
+    	JOptionPane.showMessageDialog(this, errorMessage);
+    }
 
 }
