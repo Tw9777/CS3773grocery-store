@@ -14,7 +14,6 @@ public class SMView extends JFrame{
     private JButton bLoginButton = new JButton("Enter");
     
 
-    // CONSTRUCTER
     public SMView(){
 
     	this.setTitle("Storage Manager Portal");
@@ -50,7 +49,7 @@ public class SMView extends JFrame{
     	bLoginButton.addActionListener(listenForLogin);
     }
     
-    void displayErrorMessage(String errorMessage) {
+    public void displayErrorMessage(String errorMessage) {
     	
     	JOptionPane.showMessageDialog(this, errorMessage);
     }
