@@ -2,6 +2,8 @@ package storageManagerView;
 
 
 import javax.swing.*;
+
+import java.awt.Frame;
 import java.awt.GridLayout;
 import java.awt.event.ActionListener;
 
@@ -10,13 +12,13 @@ public class SMView extends JFrame{
     private JTextField tfUserNm = new JTextField(20);
     private JTextField tfPassWd = new JTextField(20);
     private JLabel lUserNm = new JLabel("Username");
-    private JLabel lPassWd = new JLabel("Password");
+    private JLabel lPassWd = new JLabel("Password"); 
     private JButton bLoginButton = new JButton("Enter");
     
 
     public SMView(){
 
-    	this.setTitle("Storage Manager Portal");
+    	this.setTitle("Storage Manager Portal Login");
         JPanel SMPanel = new JPanel();
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
