@@ -55,7 +55,7 @@ public class SMModel {
 	{
 		for (int i=0; i < stock.size(); i++)
 		{	
-			if (itemID ==  stock.get(i).getItemID())
+			if (itemID.equals(stock.get(i).getItemID()))
 			{
 				stock.get(i).setItemAmt((stock.get(i).getItemAmt() + itemAmt));
 			}
@@ -68,7 +68,7 @@ public class SMModel {
 	{
 		for (int i=0; i < stock.size(); i++)
 		{	
-			if (itemID ==  stock.get(i).getItemID())
+			if (itemID.equals(stock.get(i).getItemID()))
 			{
 				stock.get(i).setItemAmt((stock.get(i).getItemAmt() - itemAmt));
 				if (stock.get(i).getItemAmt() < 0)
@@ -84,7 +84,7 @@ public class SMModel {
 	{
 		for(int i =0; i <stock.size(); i++)
 		{
-			if (itemID == stock.get(i).getItemID())
+			if (itemID.equals(stock.get(i).getItemID()))
 			{
 				stock.remove(i);
 			}
@@ -96,7 +96,7 @@ public class SMModel {
 	{
 		for(int i =0; i <stock.size(); i++)
 		{
-			if (itemID == stock.get(i).getItemID())
+			if (itemID.equals(stock.get(i).getItemID()))
 			{
 				stock.get(i).setItemPrice(itemPrice);
 			}
