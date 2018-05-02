@@ -72,7 +72,7 @@ public class SMView2 extends JFrame{
 	}
 	
 	public int getIncrease() {
-		1
+		
 		return Integer.parseInt(tfIncrease.getText());
 	}
 	
