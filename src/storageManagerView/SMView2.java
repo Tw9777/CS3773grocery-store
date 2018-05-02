@@ -68,7 +68,7 @@ public class SMView2 extends JFrame{
 	
 	public String getOption() {
 		
-		return cbOptions.getActionCommand();
+		return sOptions[cbOptions.getSelectedIndex()];
 	}
 	
 	public int getIncrease() {
