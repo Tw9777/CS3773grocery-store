@@ -98,7 +98,7 @@ public class SMView2 extends JFrame{
 
 	public double getItemPr() {
 		
-		return Double.parseDouble(tfItemPr.getText())
+		return Double.parseDouble(tfItemPr.getText());
 	}
 	
     public void addEnterListener(ActionListener listenForEnter) {
