@@ -62,10 +62,14 @@ public class SMView2 extends JFrame{
         
         
         this.add(SMPanel);
+        
 
     }
 	
-	
+	public String getOption() {
+		
+		return cbOptions.getActionCommand();
+	}
 	
 	public int getIncrease() {
 		
