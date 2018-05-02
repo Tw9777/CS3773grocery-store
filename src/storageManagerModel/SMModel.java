@@ -13,6 +13,18 @@ public class SMModel {
 
 		this.userNm = "User";
 		this.passWd = "12345";
+		Item temp = new Item();
+		temp.setItemName("Apple");
+		temp.setItemID("0001");
+		temp.setItemAmt(5);
+		temp.setItemPrice(1.00);
+		stock.add(temp);
+		Item temp2 = new Item();
+		temp2.setItemName("Banana");
+		temp2.setItemID("0002");
+		temp2.setItemAmt(3);
+		temp2.setItemPrice(1.50);
+		stock.add(temp2);
 	}
 	
 	public SMModel(String userNm, String passWd) {
@@ -91,6 +103,18 @@ public class SMModel {
 		}
 	}
 
+	//View the inventory
+	public String viewInventory ()
+	{
+		String inventory = "";
+		for(int i =0; i <stock.size(); i++)
+		{
+			String result = String.format("%.2f", stock.get(i).getItemPrice());
+			inventory = inventory + stock.get(i).getItemName() + " " + stock.get(i).getItemID() + " "
+					              + stock.get(i).getItemAmt() + " " + result + "\n";
+		}
+		return inventory;
+	}
 
 
 }
