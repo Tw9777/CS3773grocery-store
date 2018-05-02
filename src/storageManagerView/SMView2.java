@@ -91,9 +91,9 @@ public class SMView2 extends JFrame{
 		return tfItemNm.getText();
 	}
 	
-	public String getItemCt() {
+	public int getItemCt() {
 		
-		return tfItemCt.getText();
+		return Integer.parseInt(tfItemCt.getText());
 	}
 
 	public String getItemPr() {
