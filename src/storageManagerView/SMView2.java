@@ -72,7 +72,7 @@ public class SMView2 extends JFrame{
 	}
 	
 	public int getIncrease() {
-		
+		1
 		return Integer.parseInt(tfIncrease.getText());
 	}
 	
@@ -109,6 +109,11 @@ public class SMView2 extends JFrame{
     public void addShowAllListener(ActionListener listenForShowAll) {
     	
     	bShowAllButton.addActionListener(listenForShowAll);
+    }
+    
+    public void displayErrorMessage(String errorMessage) {
+    	
+    	JOptionPane.showMessageDialog(this, errorMessage);
     }
 	
 }
