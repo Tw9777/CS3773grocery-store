@@ -1,5 +1,7 @@
 package storageManagerModel;
+
 import java.util.*;
+
 
 
 public class SMModel {
@@ -115,6 +117,5 @@ public class SMModel {
 		}
 		return inventory;
 	}
-
-
+	
 }
