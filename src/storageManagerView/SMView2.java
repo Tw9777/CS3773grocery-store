@@ -45,8 +45,10 @@ public class SMView2 extends JFrame{
         SMPanel.add(lItemPr);
 
         SMPanel.add(cbOptions);
-        SMPanel.add(tfItemId);
+        //changed
         SMPanel.add(tfItemNm);
+        SMPanel.add(tfItemId);
+        
         SMPanel.add(tfIncrease);
         SMPanel.add(tfDecrease);
         SMPanel.add(tfItemCt);

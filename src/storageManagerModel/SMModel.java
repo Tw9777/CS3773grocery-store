@@ -39,7 +39,7 @@ public class SMModel {
 	}
 	
 	//Create new item instance and add it to the Array List
-	public void addItem(String itemName, String itemID, int itemAmt, Double itemPrice) {
+	public void addItem(String itemName, String itemID, int itemAmt, double itemPrice) {
 		
 		Item temp = new Item();
 		temp.setItemName(itemName);
