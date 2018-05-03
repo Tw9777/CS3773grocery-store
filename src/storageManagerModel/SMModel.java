@@ -27,6 +27,24 @@ public class SMModel {
 		temp2.setItemAmt(3);
 		temp2.setItemPrice(1.50);
 		stock.add(temp2);
+		Item temp3 = new Item();
+		temp3.setItemName("Kiwi");
+		temp3.setItemID("0003");
+		temp3.setItemAmt(7);
+		temp3.setItemPrice(2.00);
+		stock.add(temp3);
+		Item temp4 = new Item();
+		temp4.setItemName("Melon");
+		temp4.setItemID("0004");
+		temp4.setItemAmt(6);
+		temp4.setItemPrice(1.75);
+		stock.add(temp4);
+		Item temp5 = new Item();
+		temp5.setItemName("Fig");
+		temp5.setItemID("0005");
+		temp5.setItemAmt(1);
+		temp5.setItemPrice(0.50);
+		stock.add(temp5);
 	}
 	
 	public SMModel(String userNm, String passWd) {
