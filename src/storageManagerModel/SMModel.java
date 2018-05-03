@@ -13,7 +13,7 @@ public class SMModel {
 	
 	public SMModel() {
 
-		this.userNm = "User";
+		this.userNm = "admin";
 		this.passWd = "12345";
 		Item temp = new Item();
 		temp.setItemName("Apple");

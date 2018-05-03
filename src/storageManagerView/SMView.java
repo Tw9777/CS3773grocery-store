@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class SMView extends JFrame{
 
     private JTextField tfUserNm = new JTextField(20);
-    private JTextField tfPassWd = new JTextField(20);
+    private JTextField tfPassWd = new JPasswordField(20);
     private JLabel lUserNm = new JLabel("Username");
     private JLabel lPassWd = new JLabel("Password"); 
     private JButton bLoginButton = new JButton("Enter");
