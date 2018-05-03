@@ -95,8 +95,7 @@ public class SMController {
 	class SMListener3 implements ActionListener{
 		public void actionPerformed(ActionEvent e){
 			try{
-				
-				JOptionPane.showMessageDialog(null,"Item/ID/Amount/Price\n" + theModel.viewInventory());
+				JOptionPane.showMessageDialog(null,"Item/ID/Amount/Price\n" + theModel.viewInventory(), "Inventory",JOptionPane.INFORMATION_MESSAGE );
 			}
 			catch(NullPointerException ex){
 				theView2.displayErrorMessage("Empty field.");
